@@ -11,5 +11,5 @@
 homepage: "https://github.com/igortracker/country-name-to-iso-code"
 documentation: "https://github.com/igortracker/country-name-to-iso-code#readme"
 versions:
-  - sha: 910cef4ba0f7acd97f9e7cc125ba4f2c46b6d15e
+  - sha: 11cb1a8653bf53b29f80a9c6cfbaa0df862680d0
     changeNotes: Versão inicial. Variável server-side que converte nome de país (PT/EN/variações) em código ISO 3166-1 alpha-2 minúsculo, com normalização e valor de fallback.
