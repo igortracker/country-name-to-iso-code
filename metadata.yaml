@@ -1,0 +1,15 @@
+# metadata.yaml — controla qual versão do template a Galeria serve.
+# Documentação oficial:
+# https://developers.google.com/tag-platform/tag-manager/templates/gallery
+#
+# IMPORTANTE:
+# - Após o primeiro commit, copie o SHA COMPLETO desse commit e cole em `sha`.
+# - As versões devem ficar em ordem cronológica inversa (mais nova no topo).
+# - O `sha` precisa apontar para o commit que contém o template.tpl que você
+#   quer publicar. Atualize a cada nova versão.
+
+homepage: "https://github.com/igortracker/country-name-to-iso-code"
+documentation: "https://github.com/igortracker/country-name-to-iso-code#readme"
+versions:
+  - sha: COLE_AQUI_O_SHA_DO_PRIMEIRO_COMMIT
+    changeNotes: Versão inicial. Variável server-side que converte nome de país (PT/EN/variações) em código ISO 3166-1 alpha-2 minúsculo, com normalização e valor de fallback.
